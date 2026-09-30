@@ -1,0 +1,4 @@
+interface:
+  display_name: "Marketing Pitch Deck Skill"
+  short_description: "Research, plan and build marketing pitch decks"
+  default_prompt: "Use $marketing-pitch-deck-skill to research this brand and create a story-led, editable marketing pitch deck from its website and brief."

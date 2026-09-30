@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "brand": "Driftlight (fictional)",
+    "objective": "Build consideration and qualified enquiries",
+    "audience": "Adult readers in two fictional priority cities",
+    "primary_outcome": "Qualified enquiries",
+    "expected_slide_count": 4,
+    "currency": "INR",
+    "budget_basis": "Media only; production, fees and tax excluded"
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "label": "Fictional supplied brief",
+      "file": "examples/sample-brief.md",
+      "data_period": "Not applicable",
+      "geography": "Fictional exercise",
+      "source_type": "supplied fictional input"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "statement": "The supplied fictional product uses a brightness dial.",
+      "evidence_type": "supplied",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "id": "C2",
+      "statement": "A dial interaction can demonstrate control of reading light.",
+      "evidence_type": "proposed",
+      "source_ids": [],
+      "basis": "Proposed illustrative creative mechanic; inventory and technical feasibility unconfirmed."
+    },
+    {
+      "id": "C3",
+      "statement": "The core model buys 3,000,000 impressions at an illustrative INR 100 CPM.",
+      "evidence_type": "assumption",
+      "source_ids": [
+        "S1"
+      ],
+      "basis": "Fictional arithmetic input, not a market benchmark."
+    }
+  ],
+  "slides": [
+    {
+      "id": "01",
+      "chapter": "Objective",
+      "purpose": "Introduce the decision",
+      "reader_question": "What should the plan achieve?",
+      "title": "Build consideration and qualified enquiries",
+      "takeaway": "The plan has one primary outcome.",
+      "body": [],
+      "claim_ids": [],
+      "visual": {
+        "type": "native text and purpose-specific diagram/table",
+        "asset_refs": []
+      },
+      "disclosures": [
+        "Fictional exercise; no real performance forecast."
+      ],
+      "transition": "Move from the objective to product truth."
+    },
+    {
+      "id": "02",
+      "chapter": "Product",
+      "purpose": "Establish a supported benefit",
+      "reader_question": "What does the product demonstrate?",
+      "title": "A brightness dial makes adjustment easy to show",
+      "takeaway": "The supplied product truth supports a demonstration.",
+      "body": [
+        "The fictional supplied product has a brightness dial."
+      ],
+      "claim_ids": [
+        "C1"
+      ],
+      "visual": {
+        "type": "native text and purpose-specific diagram/table",
+        "asset_refs": []
+      },
+      "disclosures": [],
+      "transition": "Turn product truth into an execution."
+    },
+    {
+      "id": "03",
+      "chapter": "Execution",
+      "purpose": "Explain the proposed experience",
+      "reader_question": "What would the user see and do?",
+      "title": "Let readers adjust the light inside the ad",
+      "takeaway": "A proposed dial interaction makes the benefit tangible.",
+      "body": [
+        "Trigger: reading scene.",
+        "Interaction: turn the dial.",
+        "Result: scene brightness changes, followed by an enquiry action."
+      ],
+      "claim_ids": [
+        "C2"
+      ],
+      "visual": {
+        "type": "native text and purpose-specific diagram/table",
+        "asset_refs": []
+      },
+      "disclosures": [
+        "Proposed concept; inventory and technical feasibility unconfirmed."
+      ],
+      "transition": "Show the illustrative investment choices."
+    },
+    {
+      "id": "04",
+      "chapter": "Investment",
+      "purpose": "Compare illustrative scenarios",
+      "reader_question": "What does additional investment buy?",
+      "title": "The larger scenario adds video to the core demonstration",
+      "takeaway": "The increment buys a separate attention role.",
+      "body": [
+        "Core: INR 300,000 media only.",
+        "Expanded: INR 500,000 media only, including INR 200,000 video."
+      ],
+      "claim_ids": [
+        "C3"
+      ],
+      "visual": {
+        "type": "native text and purpose-specific diagram/table",
+        "asset_refs": []
+      },
+      "disclosures": [
+        "Fictional rates and forecasts; production, fees and tax excluded."
+      ],
+      "transition": "Agree validation needs before real planning."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "core",
+      "media_budget": 300000
+    },
+    {
+      "id": "expanded",
+      "media_budget": 500000
+    }
+  ],
+  "media_lines": [
+    {
+      "id": "core-display",
+      "scenario_id": "core",
+      "partner": "Fictional display environment",
+      "role": "Demonstration",
+      "spend": 300000,
+      "cost_model": "CPM",
+      "rate": 100,
+      "impressions": 3000000,
+      "ctr": 0.01,
+      "clicks": 30000,
+      "cvr": 0.02,
+      "conversions": 600,
+      "unique_reach": 1000000,
+      "average_frequency": 3,
+      "impression_scope": "fictional-core-single-environment",
+      "reach_scope": "fictional-core-single-environment",
+      "confirmation_status": "proposed"
+    },
+    {
+      "id": "expanded-display",
+      "scenario_id": "expanded",
+      "partner": "Fictional display environment",
+      "role": "Demonstration",
+      "spend": 300000,
+      "cost_model": "CPM",
+      "rate": 100,
+      "impressions": 3000000,
+      "confirmation_status": "proposed"
+    },
+    {
+      "id": "expanded-video",
+      "scenario_id": "expanded",
+      "partner": "Fictional video environment",
+      "role": "Incremental attention",
+      "spend": 200000,
+      "cost_model": "CPV",
+      "rate": 0.5,
+      "views": 400000,
+      "metric_definition": "Illustrative defined views, not asserted completed views",
+      "confirmation_status": "proposed"
+    }
+  ]
+}
